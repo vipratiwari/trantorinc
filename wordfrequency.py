@@ -6,7 +6,7 @@ def processfile(filename, noise = False, cloud = False):
     ''' Function will split the file and
         remove punctuation and numbers and
         will return the frequncy of words'''
-    noiselist = ["a", "and", "is", "the", "at"]
+    noiselist = ["a", "and", "is", "the", "at", "its"]
     with open(filename) as f:
         if cloud:
             return clearwords.clearwords(f.read(),cloud = True, noisewords = noiselist)

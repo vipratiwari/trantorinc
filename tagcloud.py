@@ -3,11 +3,11 @@ import datetime
 import wordfrequency as wf 
 import webbrowser
 
-HTML_BIG    = 96      # the largest font size produced
-HTML_LITTLE = 14      # the smallest font size produced
-filename = "word_cloud"
-high_count = 20
-low_count  =  1
+HTML_BIG    = 96          # the largest font size produced
+HTML_LITTLE = 14          # the smallest font size produced
+filename = "word_cloud"   # html file name 
+high_count = 20           # highest frequency to be picked
+low_count  =  1           # lowest frequency to be picked
 
 
 def make_html_word(word, count, high, low):
